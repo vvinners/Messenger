@@ -1,7 +1,7 @@
 {
     "name": "vvinners/messenger",
     "description": "Collection of Email and SMS API",
-    "type": "composer-plugin",
+    "type": "library",
     "require": {
         "sendgrid/sendgrid": "dev-master",
         "nexmo/client": "dev-master"
