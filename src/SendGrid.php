@@ -1,6 +1,6 @@
 <?php
 
-namespace vvinners\Messenger;
+namespace VVinners\Messenger;
 
 class SendGrid
 {
