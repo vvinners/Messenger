@@ -1,6 +1,7 @@
 {
     "name": "vvinners/messenger",
     "description": "Collection of Email and SMS API",
+    "type": "library",
     "require": {
         "sendgrid/sendgrid": "^7.3.0",
         "nexmo/client": "^2.1.0"
