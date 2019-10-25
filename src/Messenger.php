@@ -25,7 +25,7 @@ class Messenger {
      * @return void
      */
 
-    protected static function sendActivation($user_id, $delivery_type = "email", $model = Admin::class) {
+    public static function sendActivation($user_id, $delivery_type = "email", $model = Admin::class) {
         $user = $model::find($user_id);
         if ($user) {
             if ($delivery_type == "email") {
@@ -60,18 +60,18 @@ class Messenger {
         return null;
     }
 
-    protected static function sendEmail($to, $subject, $content) {
+    public static function sendEmail($to, $subject, $content) {
         $mail = new SendGrid();
         return $mail->send($to, $subject, $content);
     }
 
-    protected static function sendSMS($to, $content) {
+    public static function sendSMS($to, $content) {
         $sms = new Nexmo();
         return $sms->send($to, $content);
     }
 
     // add user type and user id ?
-    // protected static function sendmail($to, $data = [], $type = "activation") {
+    // public static function sendmail($to, $data = [], $type = "activation") {
 
     //     if ($type == "activation") {
     //         if ($data["name"] != null && $data["url"] != null) {
