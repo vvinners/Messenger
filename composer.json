@@ -1,0 +1,22 @@
+{
+    "name": "vvinners/messenger",
+    "description": "Collection of Email and SMS API",
+    "type": "composer-plugin",
+    "require": {
+        "sendgrid/sendgrid": "dev-master",
+        "nexmo/client": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Tan",
+            "email": "marktan@vvinners.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "vvinners\\Messenger\\": "src/"
+        }
+    }
+}
