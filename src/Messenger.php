@@ -2,8 +2,8 @@
 
 namespace VVinners\Messenger;
 
-use vvinners\Messenger\SendGrid;
-use vvinners\Messenger\Nexmo;
+use VVinners\Messenger\SendGrid;
+use VVinners\Messenger\Nexmo;
 
 class Messenger {
 
