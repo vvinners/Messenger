@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "sendgrid/sendgrid": "^7.3.0",
-        "nexmo/client": "^2.1.0"
+        "nexmo/client": "~2.0.0"
     },
     "license": "MIT",
     "authors": [
